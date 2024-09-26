@@ -6,7 +6,7 @@ Brain Benders is a simple FAQ page that displays frequently asked questions for 
 
 ## Features
 
-- Puzzle Selection: Choose between 2x2, 3x3, 4x4, and Pyraminx puzzles.
+- Puzzle Selection: Choose between `2x2`, `3x3`, `4x4`, and `Pyraminx` puzzles.
 - Accordion FAQ: Expandable FAQ sections with smooth transitions.
 - Dynamic Content Update: Automatically updates the content and image based on the selected puzzle.
 
