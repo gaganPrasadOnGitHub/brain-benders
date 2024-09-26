@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --bg-color: #faf7f4;
+  --menu-bg: #faf7f48b;
+  --text-color: #9c2d41;
+  --in-active-color: #cb857c;
+  --accordion-bg: #f6cbb7;
+  --border: 2px solid #9c2d41;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
+#faq-page {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 1200px;
+  min-height: 100dvh;
+  flex-direction: column;
+}
+
+header {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.menu {
+  top: 0;
+  gap: 16px;
+  z-index: 9;
+  display: flex;
+  padding: 16px;
+  position: sticky;
+  width: max-content;
+  align-items: center;
+  justify-content: flex-start;
+  background: var(--menu-bg);
+  backdrop-filter: blur(3px);
+  border-radius: 0 0 16px 16px;
+}
+
+.menu-item {
+  gap: 8px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--in-active-color);
+  transition: all ease-in-out 300ms;
+}
+
+.menu-item:hover {
+  translate: 0 2px;
+  color: var(--text-color);
+}
+
+.menu-item.active {
+  color: var(--text-color);
+}
+
+.menu-item object svg {
+  width: 40px;
+}
+
+main {
+  gap: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-container {
+  top: 120px;
+  display: flex;
+  padding: 40px 0;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 300ms;
+}
+
+.puzzle-image {
+  opacity: 0;
+  width: 320px;
+  transition: all ease-in-out 500ms;
+}
+
+.puzzle-image:hover {
+  scale: 1.2;
+  rotate: 25deg;
+}
+
+.puzzle-image.loaded {
+  opacity: 1;
+}
+
+.puzzle-faq-container {
+  flex: 1;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: all ease-in-out 300ms;
+}
+
+.faq-item {
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border: var(--border);
+  background: var(--accordion-bg);
+}
+
+.faq-question {
+  gap: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  color: var(--text-color);
+  justify-content: space-between;
+}
+
+.faq-question svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.faq-question.active svg {
+  rotate: 180deg;
+}
+
+.faq-answer {
+  overflow: hidden;
+  max-height: 0;
+  padding-top: 0;
+  color: var(--text-color);
+  border-top: 1px solid #0000;
+  transition: all ease-in-out 300ms;
+}
+
+.faq-answer.show {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: var(--border);
+}
+
+footer {
+  padding: 16px 0;
+  margin-top: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    text-align: center;
+  }
+  .menu {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  main {
+    gap: 24px;
+    flex-direction: column;
+  }
+  .image-container {
+    top: 0;
+    position: relative;
+    align-self: center;
+  }
+  .puzzle-image {
+    max-width: 300px;
+  }
+  .puzzle-faq-container {
+    align-self: flex-start;
+    justify-content: center;
+  }
+}

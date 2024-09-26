@@ -1,0 +1,160 @@
+{
+  "puzzles": {
+    "2x2": {
+      "id": "2x2",
+      "name": "2x2x2",
+      "image": "./images/2x2.png",
+      "faq": [
+        {
+          "question": "What is the 2x2 Rubik's Cube?",
+          "answer": "The **2x2 Rubik’s Cube**, also known as the Pocket Cube, is a simpler and smaller version of the classic 3x3 Cube. It consists of only corner pieces and is a great starting point for beginners."
+        },
+        {
+          "question": "What is the world record for solving the 2x2 Cube?",
+          "answer": "As of now, the world record for solving the 2x2 Rubik's Cube is **0.43 seconds**, set by **Teodor Zajder** in 2023. For up-to-date records, visit the [World Cube Association (WCA)](https://www.worldcubeassociation.org/results/rankings/222/single)."
+        },
+        {
+          "question": "What are some common solving methods for the 2x2 Cube?",
+          "answer": "Common methods include:\n- **Ortega Method:** Solves the cube in 2 layers using algorithms.\n- **CLL Method:** Solves the first layer and then orients and permutes the last layer simultaneously."
+        },
+        {
+          "question": "Where can I learn to solve the 2x2x2 Rubik’s Cube?",
+          "answer": "You can learn through various resources:\n- **YouTube Channels:** Look for tutorials from cubers like [J Perm](https://www.youtube.com/@JPerm) or [CubeSkills](https://www.youtube.com/@CubeSkills).\n- **Websites:** Sites like [cubeskills.com](https://cubeskills.com) and [speedsolving.com](https://www.speedsolving.com) offer guides and algorithm lists.\n- **Mobile Apps:** Apps like 'Cube Solver' provide interactive tutorials."
+        },
+        {
+          "question": "Are there competitions for the 2x2 Rubik’s Cube?",
+          "answer": "Yes, the 2x2 Cube is a popular category in speedcubing competitions organized by the [World Cube Association (WCA)](https://www.worldcubeassociation.org/competitions?event_ids%5B%5D=222&region=all&search=&state=present&year=all+years&from_date=&to_date=&delegate=&display=list). Competitors try to solve the cube as quickly as possible, and records are officially tracked."
+        },
+        {
+          "question": "How many possible combinations does a 2x2 Cube have?",
+          "answer": "There are **3,674,160** possible combinations for the 2x2 Cube. While it may seem like a lot, it's far fewer than the 43 quintillion combinations of the 3x3 Cube."
+        },
+        {
+          "question": "What is a good time for beginners?",
+          "answer": "For beginners, a time under 10 seconds is a good starting point. With practice, many cubers can achieve sub-5-second solves."
+        },
+        {
+          "question": "How can I improve my solving speed?",
+          "answer": "1. **Learn Advanced Methods:** Transition to methods like Ortega or CLL for faster solutions.\n2. **Practice Algorithms:** Memorize key algorithms and practice them frequently.\n3. **Use Timing Tools:** Track your times to identify areas for improvement and practice specific cases."
+        }
+      ]
+    },
+    "3x3": {
+      "id": "3x3",
+      "name": "3x3x3",
+      "image": "./images/3x3.png",
+      "faq": [
+        {
+          "question": "What is the origin of the 3x3 Rubik’s Cube?",
+          "answer": "The **3x3 Rubik’s Cube** was invented by Hungarian architect **Ernő Rubik** in 1974. Originally called the 'Magic Cube', it was designed as a teaching tool for explaining three-dimensional geometry."
+        },
+        {
+          "question": "What is the current world record for solving the 3x3 Cube?",
+          "answer": "The world record for solving the 3x3 Cube is **3.13 seconds**, set by **Max Park** in 2023. For the latest records, you can check the [WCA results](https://www.worldcubeassociation.org/results/rankings/333/single)."
+        },
+        {
+          "question": "What are some common solving methods for the 3x3 Cube?",
+          "answer": "Popular methods include:\n- **CFOP (Fridrich Method):** The most widely used method for speedcubing, involving Cross, F2L, OLL, and PLL.\n- **Roux Method:** Focuses on block building and fewer moves.\n- **ZZ Method:** Solves the edges in the first step to reduce cube rotations."
+        },
+        {
+          "question": "Where can I learn to solve the 3x3x3 Rubik’s Cube?",
+          "answer": "There are numerous resources available to learn solving techniques:\n- **YouTube Channels:** Popular channels like [J Perm](https://www.youtube.com/@JPerm), [CubeHead](https://www.youtube.com/@CubeHead), and [Brody the Cuber](https://www.youtube.com/@BrodytheCuber) offer tutorials.\n- **Websites:** Platforms like [cubeskills.com](https://cubeskills.com) and [speedsolving.com](https://www.speedsolving.com) provide in-depth guides and practice resources.\n- **Mobile Apps:** Apps like 'Cube Solver' or 'Twisty Timer' offer tutorials and virtual solving environments."
+        },
+        {
+          "question": "Are there official competitions for the 3x3 Rubik's Cube?",
+          "answer": "Yes, the 3x3 Cube is the most popular category in speedcubing competitions. The [World Cube Association (WCA)](https://www.worldcubeassociation.org/competitions?event_ids%5B%5D=333&region=all&search=&state=present&year=all+years&from_date=&to_date=&delegate=&display=list) organizes official competitions around the world, where participants compete to achieve the fastest time."
+        },
+        {
+          "question": "How many possible combinations does the 3x3 Cube have?",
+          "answer": "The 3x3 Cube has an astonishing **43,252,003,274,489,856,000** possible configurations. That’s over 43 quintillion!"
+        },
+        {
+          "question": "What is a good time for beginners?",
+          "answer": "For beginners, a time under 2 minutes is a great start. As you practice, aiming for sub-60 seconds and eventually sub-30 seconds is achievable with advanced methods."
+        },
+        {
+          "question": "How can I improve my solving speed?",
+          "answer": "1. **Learn Advanced Methods:** Transition to CFOP or other advanced methods from the Beginner’s Method.\n2. **Practice Algorithms:** Memorize and practice common algorithms for efficient solving.\n3. **Improve Look-Ahead:** Practice spotting the next pieces to solve without pausing, reducing thinking time.\n4. **Timing and Drills:** Use a timer to track your progress and practice specific solving stages independently."
+        }
+      ]
+    },
+    "4x4": {
+      "id": "4x4",
+      "name": "4x4x4",
+      "image": "./images/4x4.png",
+      "faq": [
+        {
+          "question": "What makes the 4x4 Cube different from the 3x3 Cube?",
+          "answer": "The **4x4 Rubik’s Cube**, also called the Rubik's Revenge, introduces additional complexity because the center pieces are not fixed. This means solving requires more algorithms and an understanding of **parity errors**."
+        },
+        {
+          "question": "What is the world record for solving the 4x4 Cube?",
+          "answer": "The current world record for the 4x4 Cube is **15.71 seconds**, set by **Max Park** in 2024. For more details, visit the [WCA results page](https://www.worldcubeassociation.org/results/rankings/444/single)."
+        },
+        {
+          "question": "Where can I learn to solve the 4x4x4 Rubik’s Cube?",
+          "answer": "You can find learning resources in several places:\n- **YouTube Channels:** Tutorials from cubers like [J Perm](https://www.youtube.com/@JPerm) or the [Cubicle](https://www.youtube.com/@thecubicleofficial).\n- **Websites:** Platforms like [cubeskills.com](https://cubeskills.com) and [speedsolving.com](https://www.speedsolving.com) provide detailed guides.\n- **Mobile Apps:** Apps like 'Cube Solver' and 'Twisty Timer' offer tutorials and practice tools."
+        },
+        {
+          "question": "What is a parity error in the 4x4 Cube?",
+          "answer": "A **parity error** occurs when one or two edge pieces are swapped incorrectly. This can’t happen in the 3x3 Cube, making the 4x4 more challenging to solve."
+        },
+        {
+          "question": "Are there competitions for the 4x4 Cube?",
+          "answer": "Yes, the 4x4 Cube is an official event in speedcubing competitions. The [WCA](https://www.worldcubeassociation.org/competitions?event_ids%5B%5D=444&region=all&search=&state=present&year=all+years&from_date=&to_date=&delegate=&display=list) organizes events globally where cubers can compete and set records."
+        },
+        {
+          "question": "How many possible combinations does the 4x4 Cube have?",
+          "answer": "The 4x4 Cube has **7.4 quattuordecillion** possible configurations. That’s a 7 followed by 45 zeros!"
+        },
+        {
+          "question": "What is a good time for beginners?",
+          "answer": "For beginners, a time of under 2 minutes is a good target. With practice, many can aim for sub-1-minute solves."
+        },
+        {
+          "question": "How can I improve my solving speed?",
+          "answer": "1. **Learn Efficient Methods:** Practice the Reduction Method or advanced methods like Yau for faster results.\n2. **Practice Algorithms:** Focus on memorizing key algorithms and executing them quickly.\n3. **Work on Look-Ahead:** Practice identifying pieces to solve without pausing."
+        }
+      ]
+    },
+    "pyraminx": {
+      "id": "pyraminx",
+      "name": "Pyraminx",
+      "image": "./images/pyraminx.png",
+      "faq": [
+        {
+          "question": "What is the Pyraminx puzzle?",
+          "answer": "The **Pyraminx** is a pyramid-shaped twisty puzzle invented by Uwe Mèffert. It has 4 faces and, unlike the traditional Rubik’s Cube, it uses rotational symmetry of the tetrahedron."
+        },
+        {
+          "question": "What is the world record for solving the Pyraminx?",
+          "answer": "The current world record is **0.73 seconds**, set by **Simon Kellum** in 2023. For more information, check the [WCA results](https://www.worldcubeassociation.org/results/rankings/pyram/single)."
+        },
+        {
+          "question": "What is the easiest method to solve the Pyraminx?",
+          "answer": "The **Layer by Layer method** is the easiest way to solve the Pyraminx. It involves solving the first layer, then orienting and permuting the remaining pieces."
+        },
+        {
+          "question": "Where can I learn to solve the Pyraminx?",
+          "answer": "You can find various resources online:\n- **YouTube Channels:** Tutorials from cubers like [J Perm](https://www.youtube.com/@JPerm) or [ParadoxCubing](https://www.youtube.com/@ParadoxCubing).\n- **Websites:** Sites like [cubeskills.com](https://cubeskills.com) provide guides and tutorials.\n- **Mobile Apps:** Apps that simulate Pyraminx solving can help you practice."
+        },
+        {
+          "question": "Are there competitions for the Pyraminx?",
+          "answer": "Yes, the Pyraminx is included in many speedcubing competitions organized by the [WCA](https://www.worldcubeassociation.org/competitions?event_ids%5B%5D=pyram&region=all&search=&state=present&year=all+years&from_date=&to_date=&delegate=&display=list), allowing competitors to race against each other."
+        },
+        {
+          "question": "How many possible combinations does the Pyraminx have?",
+          "answer": "The Pyraminx has **75,582,720** possible combinations, which is significantly fewer than the 3x3 Cube."
+        },
+        {
+          "question": "What is a good time for beginners?",
+          "answer": "For beginners, a time under 20 seconds is a good goal. With practice, many can aim for sub-10-second solves."
+        },
+        {
+          "question": "How can I improve my solving speed?",
+          "answer": "1. **Learn Advanced Methods:** Transition to more efficient methods for faster solves.\n2. **Practice Algorithms:** Regularly practice the algorithms used in solving.\n3. **Work on Look-Ahead:** Improve your ability to plan your moves without pausing."
+        }
+      ]
+    }
+  }
+}
